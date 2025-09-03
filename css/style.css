@@ -1,0 +1,161 @@
+body{
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-family: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(216, 12%, 8%);
+    margin: 0;
+}
+
+#container{
+    background-color: hsl(213, 19%, 18%);
+    width: 370px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+#container .img-con{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(217, 12%, 20%)
+}
+
+#container img{
+    width: 10px;
+}
+
+#container h1{
+   color: hsl(0, 100%, 100%);
+   font-weight: 700;
+   font-size: 27px;
+}
+
+#container p{
+    line-height: 1.5em;
+    color: hsl(217, 12%, 63%);
+}
+
+
+#container .circle{
+    display: flex;
+    justify-content: space-around;
+}
+
+#container .circle span{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: hsl(217, 12%, 63%);
+    background-color: hsl(217, 12%, 20%);
+}
+
+#container .circle:hover span:nth-child(5){
+    background-color: hsl(25, 97%, 53%);
+    color: hsl(213, 19%, 18%);
+    cursor: pointer;
+}
+
+#container .circle span:nth-child(4){
+    background-color: hsl(0, 100%, 100%);
+    color: hsl(216, 12%, 8%);
+}
+
+#container button{
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    border-radius: 15px;
+    width: 330px;
+    margin-left: 10px;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: 'Overpass', sans-serif;
+}
+
+#container button a{
+    text-decoration: none;
+    color: hsl(216, 12%, 8%);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#container #sub-container:hover button{
+    background-color: hsl(0, 100%, 100%);
+    cursor: pointer;
+}
+
+
+/* thank you page styling starts here  */
+
+#t-container{
+    background-color: hsl(213, 19%, 18%);
+    width: 300px;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#t-container p{
+    line-height: 1.5em;
+}
+
+#t-container p:nth-of-type(1){
+    background-color: hsl(217, 12%, 20%);
+    color: hsl(25, 97%, 53%);
+    border-radius: 15px;
+    width: 170px;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+#t-container p:nth-of-type(2){
+    color: hsl(217, 12%, 63%);
+    font-size: 13.2px;
+}
+
+#t-container h2{
+    color: hsl(0, 100%, 100%);
+}
+
+@media screen and (max-width: 400px){
+    #container{
+        width: 80%;
+    }
+
+    #container button{
+        width: 98%;
+        margin-left: 3px;
+    }
+
+    /* thank you page styling starts here */
+
+    #t-container{
+        width: 80%;
+    }
+
+    #t-container p:nth-of-type(2){
+       width: 260px;
+       margin: 0 auto;
+   }
+}
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
