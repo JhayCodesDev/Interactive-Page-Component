@@ -60,7 +60,7 @@ body{
     background-color: hsl(217, 12%, 20%);
 }
 
-#container .circle:hover span:nth-child(5){
+#container .circle span:nth-child(5):hover {
     background-color: hsl(25, 97%, 53%);
     color: hsl(213, 19%, 18%);
     cursor: pointer;
@@ -90,7 +90,7 @@ body{
     font-weight: 700;
 }
 
-#container #sub-container:hover button{
+#container #sub-container button:hover{
     background-color: hsl(0, 100%, 100%);
     cursor: pointer;
 }
