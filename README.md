@@ -42,8 +42,8 @@ This challenge was a great opportunity to practice responsive layout, interactiv
 ![screenshot for desktop](./Screenshot%202025-09-03%20at%2010-51-43%20Frontend%20Mentor%20Interactive%20rating%20component.png)
 ![screenshot for mobile](./Screenshot%202025-09-03%20at%2010-51-30%20Frontend%20Mentor%20Interactive%20rating%20component.png)
 ![screenshot for thank you page desktop](./Screenshot%202025-09-03%20at%2010-48-19%20Frontend%20Mentor%20Interactive%20rating%20component%20Thank%20You%20Page.png)
-![screenshot for thank you page mobile](./Screenshot%202025-09-03%20at%2010-48-01%20Frontend%20Mentor%20Interactive%20rating%20component%20Thank%20You%20Page.png)
-![screenshot for active state](./Screenshot%202025-09-03%20at%2011-22-10%20Frontend%20Mentor%20Interactive%20rating%20component.png)
+![screenshot for thank you page mobile](./Screenshot%202025-09-04%20at%2014-16-06%20Frontend%20Mentor%20Interactive%20rating%20component.png)
+![screenshot for active state](./Screenshot%202025-09-04%20at%2014-17-21%20Frontend%20Mentor%20Interactive%20rating%20component.png)
 
 ### Links
 - Live Site URL: [View live site here](https://JhayCodesDev.github.io/Interactive-Page-Component/)
